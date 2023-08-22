@@ -6,5 +6,7 @@ GitHub issue: https://github.com/software-mansion/react-native-gesture-handler/i
 
 EAS build for simulator: https://expo.dev/accounts/statico/projects/rngh-drawer-bug/builds
 
+Direct link to code: https://github.com/statico/rngh-mobile-bug/blob/main/app/index.jsx
+
 https://github.com/statico/rngh-mobile-bug/assets/137158/07a4fa68-3586-442c-be8e-0dfe18748807
 
