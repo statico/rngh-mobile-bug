@@ -3,7 +3,7 @@ import { DrawerLayout } from "react-native-gesture-handler";
 
 import { Menu } from ".";
 
-const DrawerContext = createContext < DrawerContextValue > null;
+const DrawerContext = createContext(null);
 
 export const DrawerProvider = ({ children }) => {
   const drawer = useRef < DrawerLayout > null;

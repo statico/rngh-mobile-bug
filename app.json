@@ -4,6 +4,7 @@
   "owner": "statico",
   "version": "1.0.0",
   "orientation": "portrait",
+  "plugins": ["expo-router"],
   "ios": {
     "bundleIdentifier": "com.statico.rnghdrawerbug"
   },
@@ -21,8 +22,8 @@
       "bundleIdentifier": "com.statico.rnghdrawerbug"
     },
     "owner": "statico",
-    "plugins": [
-      "expo-router"
-    ]
+    "web": {
+      "bundler": "metro"
+    }
   }
 }

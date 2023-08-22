@@ -1,6 +1,7 @@
 import { Text } from "react-native";
-import { FlatList, TouchableOpacity } from "react-native-gesture-handler";
+import { FlatList, Gesture, GestureHandlerRootView, TouchableOpacity } from "react-native-gesture-handler";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+// import { DrawerProvider } from "./components/Drawer";
 
 const ItemRenderer = ({ item }) => {
   return (
@@ -20,8 +21,9 @@ const Header = () => {
 
 export default function Page() {
   return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
     <SafeAreaProvider>
-      <DrawerProvider>
+       {/* <DrawerProvider> */}
         <View style={{ flex: 1 }}>
           <FlatList
             style={{ flex: 1 }}
@@ -30,7 +32,8 @@ export default function Page() {
             ItemRenderer={ItemRenderer}
           />
         </View>
-      </DrawerProvider>
+      {/* </DrawerProvider> */}
     </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }
