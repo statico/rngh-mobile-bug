@@ -1,0 +1,41 @@
+{
+  "name": "rngh-drawer-bug",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "doctor": "npx expo-doctor"
+  },
+  "dependencies": {
+    "expo": "^48.0.19",
+    "expo-application": "~5.1.1",
+    "expo-constants": "~14.2.1",
+    "expo-dev-client": "~2.2.1",
+    "expo-linking": "~4.0.1",
+    "expo-router": "^1.0.0",
+    "expo-status-bar": "~1.4.4",
+    "metro": "^0.76.6",
+    "metro-resolver": "^0.76.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-ios": "^1.1.0",
+    "react-native-safe-area-context": "4.5.0",
+    "react-native-screens": "~3.20.0"
+  },
+  "devDependencies": {
+    "@types/react": "~18.0.27",
+    "@types/react-native": "^0.71.6",
+    "prettier": "^3.0.2"
+  },
+  "resolutions": {
+    "metro": "0.76.0",
+    "metro-resolver": "0.76.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "RNGH Drawer Bug",
+  "slug": "rngh-drawer-bug",
+  "owner": "statico",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "ios": {
+    "bundleIdentifier": "com.statico.rnghdrawerbug"
+  },
+  "android": {
+    "package": "com.statico.rnghdrawerbug"
+  },
+  "expo": {
+    "scheme": "rnghdrawerbug",
+    "extra": {
+      "eas": {
+        "projectId": "808e85ef-1b4f-471c-a0c4-01a157de23e9"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.statico.rnghdrawerbug"
+    },
+    "owner": "statico",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
